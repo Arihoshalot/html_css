@@ -24,21 +24,23 @@
         </nav>
     </header>
     <main>
-        <form action="">
-            <label for="name">First Name</label>
-            <input type="text" placeholder="Enter your first name">
-            <label for="name">Last Name</label>
-            <input type="text" placeholder="Enter your lname">
+        <form id="form">
+            <label for="fname">First Name</label>
+            <input name='fname' type="text" placeholder="Enter your first name">
+            <label for="lname">Last Name</label>
+            <input name='lname' type="text" placeholder="Enter your lname">
             <label for="email"> Email</label>
-            <input type="text" placeholder="Enter your email">
+            <input name='email' type="text" placeholder="Enter your email">
             <label for="contact">Contact</label>
-            <input type="text" placeholder="Enter your contact">
+            <input name='contact' type="text" placeholder="Enter your contact">
             <label for="adress">Adress</label>
-            <input type="text" placeholder="Enter your adress">
+            <input name='adress' type="text" placeholder="Enter your adress">
             <label for="date">Date of birth</label>
             <input  type="date" placeholder="Date and time" required name="date" value="2020-11-21">
             <input type="submit" placeholder="submit">
         </form>
+        <p>Details.</p>
+        <ul id="details"></ul>
     </main>
     <script src="js/script.js" defer></script>
 </body>
