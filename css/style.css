@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 70px;
+    width: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    border-bottom: 1px solid rgba(223, 222, 222, 0.459);
+    box-shadow: 0px 5px 6px 0px #f6f6f687;
+}
+
+.logo{
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+
+.links ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links ul li {
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+}
+form{
+    width: 25%;
+    margin-left: 5em;
+}
+
+
+input[type=submit] {
+    background-color:black;
+    color: white;
+    padding: 12px 20px;
+
+}
